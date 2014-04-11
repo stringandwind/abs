@@ -1,8 +1,6 @@
-for file in /{,usr/}bin/*calc
-do
-    if [ -x "$file" ]
-    then
-        echo $file
-    fi
-done
+#!/bin/bash
 
+a=3
+b=a
+c=b
+echo "${c}"
